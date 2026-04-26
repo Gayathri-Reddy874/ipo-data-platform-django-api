@@ -1,8 +1,12 @@
 # 🚀 Bluestock IPO Data Platform (Django API)
 
+🚀 Backend API for IPO Data Management built using Django REST Framework
+
+---
+
 ## 📌 Overview
 
-The **Bluestock IPO Data Platform** is a full-stack IPO management system built during my internship at **Bluestock Fintech (May 2025)**.
+The **Bluestock IPO Data Platform** is a full-stack IPO management platform developed during my internship at **Bluestock Fintech (May 2025)**.
 
 This platform enables efficient management of IPO listings with complete CRUD functionality and provides a scalable backend API for financial data operations.
 
@@ -42,6 +46,15 @@ Bluestock_Project/
 * **Database:** PostgreSQL (Neon DB)
 * **Frontend:** Django Client / Web Interface
 * **Tools:** Git, GitHub
+
+---
+
+## 📦 Requirements
+
+* Python 3.x
+* pip
+* PostgreSQL
+* Virtualenv (recommended)
 
 ---
 
@@ -150,6 +163,18 @@ python manage.py runserver 8000
 
 ---
 
+## 📡 Sample API Endpoints
+
+| Method | Endpoint        | Description          |
+| ------ | --------------- | -------------------- |
+| GET    | /api/ipos/      | Get all IPO listings |
+| POST   | /api/ipos/      | Create new IPO       |
+| GET    | /api/ipos/{id}/ | Get IPO details      |
+| PUT    | /api/ipos/{id}/ | Update IPO           |
+| DELETE | /api/ipos/{id}/ | Delete IPO           |
+
+---
+
 ## 📡 API Documentation
 
 Refer to:
@@ -157,20 +182,39 @@ https://github.com/bitz-1/bluestock-ipo-rest-api
 
 ---
 
-## 🧑‍💻 Internship Experience
+## 🧑‍💻 Internship Experience & Contribution
 
-This project was developed as part of my internship at **Bluestock Fintech (May 2025 Batch L73)**, where I gained hands-on experience in:
+This project was developed as part of my internship at **Bluestock Fintech (May 2025 Batch L73)**, where I contributed to the development of an IPO management platform.
 
-* Building scalable backend APIs
-* Working with real-world financial datasets
-* Implementing secure authentication systems
-* Deploying full-stack applications
+### 🔹 My Contributions
+
+* Developed and tested **RESTful APIs** using Django and Django REST Framework
+* Implemented **CRUD operations** for IPO data management
+* Worked on **database integration** using PostgreSQL
+* Assisted in backend logic development and API structuring
+* Participated in debugging, testing, and improving application performance
+
+### 🔹 Key Learnings
+
+* Gained hands-on experience in real-world backend development workflows
+* Improved understanding of API design and data handling
+* Learned to work in a team-based development environment
+* Understood best practices in code structure, version control, and deployment
+
+---
+
+## ⚠️ Note
+
+This repository contains a simplified and adapted version of the original internship project.
+Sensitive or proprietary components have been excluded.
 
 ---
 
 ## 📜 License
 
-This project is licensed under Bluestock Fintech.
+This project is for educational and portfolio purposes only.
+Developed as part of an internship at Bluestock Fintech.
+Some parts of the original project may be proprietary to the organization.
 
 ---
 

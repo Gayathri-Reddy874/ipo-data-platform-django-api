@@ -1,8 +1,65 @@
-venv/
+# ----------------------
+# Python
+# ----------------------
 __pycache__/
-*.pyc
-db.sqlite3
+*.py[cod]
+*.pyo
+*.pyd
+
+# ----------------------
+# Environment Variables
+# ----------------------
 .env
-.env.*
+
+# ----------------------
+# Django
+# ----------------------
 *.log
+*.pot
+*.sqlite3
+db.sqlite3
+
+# Static & Media (generated)
+staticfiles/
+media/
+
+# ----------------------
+# Virtual Environments
+# ----------------------
+venv/
+env/
+ENV/
+backenv/
+frontenv/
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# OS Files
+# ----------------------
 .DS_Store
+Thumbs.db
+
+# ----------------------
+# Backup files
+# ----------------------
+*.bak
+*.swp
+*~
+
+# ----------------------
+# Frontend (Node / Build)
+# ----------------------
+node_modules/
+dist/
+build/
+
+# ----------------------
+# Misc
+# ----------------------
+*.zip
+*.tar.gz
