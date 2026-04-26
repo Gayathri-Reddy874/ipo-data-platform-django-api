@@ -10,6 +10,7 @@ __pycache__/
 # Environment Variables
 # ----------------------
 .env
+.env.*
 
 # ----------------------
 # Django
@@ -57,6 +58,17 @@ Thumbs.db
 node_modules/
 dist/
 build/
+
+# ----------------------
+# Sensitive Data (IMPORTANT 🔐)
+# ----------------------
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# OR more specific (recommended)
+backend/API/datadump.json
 
 # ----------------------
 # Misc
